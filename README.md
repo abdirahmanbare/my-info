@@ -1,6 +1,6 @@
-##Web Developer & Designer Portfolio
+Web Developer & Designer Portfolio
 
-#Introduction
+Introduction
 
 Welcome to my web development and design portfolio! This repository showcases my skills, projects, and expertise in creating engaging and functional websites. Whether you're a potential client, employer, or fellow developer/designer, I hope this portfolio gives you insight into my capabilities and passion for web development and design.
 
