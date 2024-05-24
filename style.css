@@ -1,0 +1,44 @@
+
+header h1{
+    text-align: center;
+    
+
+}
+header p{
+    text-align: center;
+
+}
+header{
+    background:rgb(130, 133, 132); 
+    padding: 0.1px;
+}
+nav {
+    text-align: center;
+    background: #f7d489;
+    padding: 10px;
+    
+
+}
+nav a{
+    text-decoration: none;
+    margin: 50px;
+}
+nav a:hover{
+    color: black;
+}
+
+footer{
+    background: #b9b0b0;
+    
+    padding: 16px ;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+   
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
