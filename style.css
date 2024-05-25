@@ -9,8 +9,9 @@ header p{
 
 }
 header{
-    background:rgb(130, 133, 132); 
-    padding: 0.1px;
+    background: green; 
+    padding: 1px;
+    color: white;
 }
 nav {
     text-align: center;
@@ -28,17 +29,83 @@ nav a:hover{
 }
 
 footer{
-    background: #b9b0b0;
-    
-    padding: 16px ;
+    background-color: rgb(196, 102, 188);
+    color: white;
+    padding: 0px ;
     bottom: 0;
     position: absolute;
-    width: 100%;
+     width: 100%;
+   
+   
+  
    
 }
-footer p{
+footer div p {
     text-align: center;
+    
 }
 footer a{
     text-decoration: none;
+    margin: 30px;
+    text-align: center;
+    color: blue;
+
+    
+}
+.fa-phone{
+    
+    color: blue;
+    
+}
+.fa-square-github{
+    color: black
+}
+.card {
+    background-color: #d8d4d4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    
+}
+
+.fa-facebook:hover {
+background-color: white;
+}
+
+.fa-tiktok{
+    background-color: black;
+    color: white;
+
+    
+    
+}
+.fa-phone:hover{
+    background-color: white;
+}
+.fa-square-github:hover{
+    background-color: white;
+}
+.fa-envelope:hover{
+    background-color: white;
+}
+
+.koro {
+    display: flex;
+}
+.yow{
+    text-align: center;
+}
+.ggmu{
+    display: flex;
+}
+card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
