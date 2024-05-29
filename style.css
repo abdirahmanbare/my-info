@@ -61,18 +61,6 @@ footer a{
 .fa-square-github{
     color: black
 }
-.card {
-    background-color: #d8d4d4;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px ;
-    max-width: 300px;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    display: flex;
-    
-}
 
 .fa-facebook:hover {
 background-color: white;
@@ -107,8 +95,9 @@ background-color: white;
     width: 690px;
 }
 .t1{
-   float: left; 
-   width: 700px;
-   padding-right: 70px;
-   margin-top: 12px;
+   float: right; 
+   width: 690px;
+
+   margin-top: 16px;
 }
+
