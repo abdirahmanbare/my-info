@@ -13,20 +13,108 @@ header{
     padding: 1px;
     color: white;
     width: auto;
+    display: block;
 }
 nav {
     text-align: center;
     background: #f7d489;
     padding: 10px;
+    color: black;
     
 
 }
 nav a{
     text-decoration: none;
     margin: 50px;
-}
-nav a:hover{
     color: black;
+
+}
+nav:hover{
+    background-color: lightsteelblue;
+color: blue;
+ cursor: pointer;
+/* transform: translateX(20px);  */
+ color: white; 
+ transition-duration: 0.7s; 
+ transform: translateY(10px);
+ 
+
+}
+ a:hover{
+    color: white;
+    cursor: pointer;
+    transform: translateX(20px);
+    transform: ;
+color: black;
+}
+.navelement{
+display: block;
+padding: 10px;
+background-color: white;
+color: white;
+transition-duration: 0.7s; 
+text-align: center;
+width: 400px;
+}
+.navelement:hover{
+background-color: lightsteelblue;
+color: blue;
+ cursor: pointer;
+transform: translateX(20px); 
+ background-color: blue; 
+
+}
+.example{
+    display: block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    text-align: center;
+    
+}
+.example:hover{
+    background-color: rgb(13, 150, 13);
+    color: white;
+    cursor: pointer;
+    transform: translateX(-20px);
+}
+.example1{
+    display: block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+    text-align: center;
+    
+}
+.example1:hover{
+    background-color: rgb(13, 150, 13);
+    color: white;
+    cursor: pointer;
+    transform: translateX(20px);
+}
+.bro{
+    margin: 100px;
+    
+    text-align: center;
+    padding: 100px;
+
+}
+li{
+    float: inline-start;
+    margin: 20px;
+    padding: 0px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.example a{
+    text-decoration: none;
+    color: white;
+}
+.example a:hover{
+    background-color: green;
 }
 
 footer{
@@ -34,8 +122,8 @@ footer{
     color: white;
     padding: 0px ;
     bottom: 0;
-    
      width: 100%;
+     position: relative;
    
    
   
@@ -97,7 +185,8 @@ background-color: white;
 .t1{
    float: right; 
    width: 690px;
+   
 
-   margin-top: 16px;
+   margin-top: 40px;
 }
 
