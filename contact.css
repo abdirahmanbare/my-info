@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #2e8b57;
+    --secondary-color: #ffffff;
+    --font-family: 'Arial, sans-serif';
+  }
+  
+  
+  body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(/pexels-oles-kanebckuu-34911-127873.jpg);
+    background-size: cover;
+    
+    
+  }
+  header {
+    background-color: #2e8b57;
+    width: auto;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    padding:  14px;
+    
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  
+  nav{
+    background-color: burlywood;
+    padding: 12px;
+    text-align: center;
+  }
+  nav a{
+    text-decoration: none;
+    margin: 100px;
+  }
+   nav a:hover{
+    color: black;
+  }
+  
+  section#contact {
+    padding: 2rem;
+  }
+  
+  address p, address a {
+    margin: 0.5rem 0;
+  }
+  
+  form {
+    margin-top: 1rem;
+    float: center;
+    float: left;
+  
+  }
+  
+  form label {
+    display: block;
+    margin-top: 0.5rem;
+    
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    
+  }
+  
+  form button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #000;
+    
+  }
+  
+  form button:hover {
+    background-color:rgb(233, 221, 58);
+  
+    
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 0;
+    margin-top: auto;
+    float: inline-end;
+    width: 100%;
+    
+  }
+  footer a{
+    text-decoration: none;
+    font-size: 40px;
+    background-color: rgb(238, 93, 93);
+  }

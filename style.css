@@ -1,3 +1,9 @@
+/* body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; 
+} */
 
 header h1{
     text-align: center;
@@ -44,7 +50,7 @@ color: blue;
     color: white;
     cursor: pointer;
     transform: translateX(20px);
-    transform: ;
+    
 color: black;
 }
 .navelement{
@@ -74,7 +80,7 @@ transform: translateX(20px);
     
 }
 .example:hover{
-    background-color: rgb(13, 150, 13);
+    background-color: rgba(93, 97, 93, 0.911);
     color: white;
     cursor: pointer;
     transform: translateX(-20px);
@@ -89,7 +95,7 @@ transform: translateX(20px);
     
 }
 .example1:hover{
-    background-color: rgb(13, 150, 13);
+    background-color: rgb(69, 158, 69);
     color: white;
     cursor: pointer;
     transform: translateX(20px);
@@ -190,3 +196,62 @@ background-color: white;
    margin-top: 40px;
 }
 
+marquee{
+background: #000;
+
+}
+.header1 {
+    background-color: #2e8b57;
+    width: auto;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    padding:  0px;
+}
+.nav1{
+    background-color: burlywood;
+    padding: 12px;
+}
+strong{
+    
+    float: left;
+}
+.yow{
+    float: right;
+}
+/* header nav a{
+    text-decoration: none;
+    margin: 100px;
+  }
+  header nav a:hover{
+    color: black;
+  } */
+  section#contact {
+    padding: 2rem;
+  }
+  address p, address a {
+    margin: 0.5rem 0;
+  }
+  form {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  form label {
+    display: block;
+    margin-top: 0.5rem;
+  }
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  form button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
